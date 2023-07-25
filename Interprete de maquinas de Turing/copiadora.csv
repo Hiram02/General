@@ -1,0 +1,8 @@
+0,1,B,e,d,#,,,,,,,,,,,,,
+q0,0,R,q0,1,R,q0,#,L,q1,e,R,qrej,d,R,qrej,#,R,qrej
+q1,0,L,q1,1,L,q1,B,R,q2,e,R,qrej,d,R,qrej,#,R,qrej
+q2,e,R,q3,d,R,q4,B,R,qrej,e,R,qrej,d,R,qrej,#,L,q6
+q3,0,R,q3,1,R,q3,0,L,q5,e,R,qrej,d,R,qrej,#,R,q3
+q4,0,R,q4,1,R,q4,1,L,q5,e,R,qrej,d,R,qrej,#,R,q4
+q5,0,L,q5,1,L,q5,B,R,qrej,0,R,q2,1,R,q2,#,L,q5
+q6,0,L,q6,1,L,q6,B,R,qacc,e,R,qrej,d,R,qrej,#,R,qrej

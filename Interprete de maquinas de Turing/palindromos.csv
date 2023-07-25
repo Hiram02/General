@@ -1,0 +1,7 @@
+,0,1,B
+q0,B,R,q1,B,R,q4,B,R,qacc
+q1,0,R,q1,1,R,q1,B,L,q2
+q2,B,L,q3,1,R,qrej,B,R,qrej
+q3,0,L,q3,1,L,q3,B,R,q0
+q4,0,R,q4,1,R,q4,B,L,q5
+q5,0,R,qrej,B,L,q3,B,R,qrej
